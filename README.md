@@ -54,10 +54,10 @@
 >> * source/routes/login/login.controller.js
 >>> - _const dao = require('./login.dao')_
 >>> - _const auth_config_dev = require('/source/config/auth_config_dev.js');_
->>> 
-
-``` Javascript
+>>> ``` Javascript
 exports.main = (req, res, next) => {
   const result = await dao.selectToken(payload);
 }
 ```
+
+
