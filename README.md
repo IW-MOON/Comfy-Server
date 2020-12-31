@@ -12,15 +12,15 @@
 ### 3. Express(Node)
 > #### 1) Node Modules
 >> * mysql
->> ##### * aws-sdk
->> ##### * winston
->> ##### * winston-daily-rotate-file
->> ##### * jsonwebtoken
->> ##### * google-auth-library
+>> * aws-sdk
+>> * winston
+>> * winston-daily-rotate-file
+>> * jsonwebtoken
+>> * google-auth-library
 ![routes1](https://user-images.githubusercontent.com/72685070/103410629-8523ad80-4baf-11eb-97d2-1b0dae73a7b2.png)
 
 > #### 2) Node Modules
->> ##### * source/app.js
->>> ##### + source/app.js
->> ##### * source/routes/index.js
->> ##### * source/routes/login/index.js
+>> * source/app.js
+>>> + app.use('/', indexRouter)
+>> * source/routes/index.js
+>> * source/routes/login/index.js
