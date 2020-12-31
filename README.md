@@ -58,6 +58,21 @@
 >>> exports.main = (req, res, next) => {
 >>>   const result = await dao.selectToken(payload);
 >>> }
-
-
-
+>> * source/routes/login/login.dao.js
+>>> - _const db_config_dev = require('/source/config/db_config_dev.js')_
+>>> - _const conn = db_config_dev.init()_
+>>> ``` Javascript
+>>> db_config_dev.connect(conn);
+>>> module.exports = {
+>>>   selectToken : function(payload){
+>>>     var sql = 'SELECT token FROM user WHERE GOOGLE_ID = ?';
+>>>     var params = [payload.sub];
+>>>     try {
+>>>       return new Promise(function(resolve, reject){
+>>>         conn.query(sql, params, function(err,rows){
+>>>           if(err) reject(err);
+>>>           resolve(rows);
+>>>         });
+>>>       });
+>>>     }
+>>> }
