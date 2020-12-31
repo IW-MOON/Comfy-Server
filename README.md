@@ -57,6 +57,7 @@
 >>> 
 
 ``` Javascript
-printf("Hello world !\n");
-printf("code Block \n");
+exports.main = (req, res, next) => {
+  const result = await dao.selectToken(payload);
+}
 ```
