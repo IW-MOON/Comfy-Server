@@ -23,6 +23,9 @@
 
 > #### 2) Node Modules
 >> * source/app.js
->>> - app.use('/', indexRouter)
+>>> - _app.use('/', indexRouter)_
 >> * source/routes/index.js
+>>> - _const login = require('./login/index')_
 >> * source/routes/login/index.js
+>>> - _const controller = require('./login.controller')_
+>>> - _router.post('/auth', controller.main)_
