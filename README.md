@@ -23,6 +23,6 @@
 
 > #### 2) Node Modules
 >> * source/app.js
->>> + app.use('/', indexRouter)
+>>> - app.use('/', indexRouter)
 >> * source/routes/index.js
 >> * source/routes/login/index.js
