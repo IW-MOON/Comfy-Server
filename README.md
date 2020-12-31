@@ -4,11 +4,12 @@
 
 ![수정됨_server_archi](https://user-images.githubusercontent.com/72685070/103410350-375a7580-4bae-11eb-9999-6201cb7b14ab.png)
 
+#
 
 ### 2. Nginx
 > #### 1) Listen HTTP 80 Port
 > #### 2) Listen HTTPS 443 Port
-
+#
 ### 3. Express(Node)
 > #### 1) Node Modules
 >> * mysql
@@ -17,7 +18,6 @@
 >> * winston-daily-rotate-file
 >> * jsonwebtoken
 >> * google-auth-library
-#
 
 
 
@@ -31,6 +31,7 @@
 
 >> * source/app.js
 >>> - _app.use('/', indexRouter)_
+>> ![routes2](https://user-images.githubusercontent.com/72685070/103411082-87870700-4bb1-11eb-9fb1-b0f9d6c634a4.png)
 >> * source/routes/index.js
 >>> - _const login = require('./login/index')_
 >> * source/routes/login/index.js
