@@ -11,7 +11,7 @@
 
 ### 3. Express(Node)
 > #### 1) Node Modules
->> ##### '*' mysql
+>> * mysql
 >> ##### * aws-sdk
 >> ##### * winston
 >> ##### * winston-daily-rotate-file
