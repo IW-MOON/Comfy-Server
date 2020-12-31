@@ -56,7 +56,7 @@
 >>> - _const auth_config_dev = require('/source/config/auth_config_dev.js');_
 >>> 
 
-``` C
+``` Javascript
 printf("Hello world !\n");
 printf("code Block \n");
 ```
