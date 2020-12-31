@@ -26,16 +26,22 @@
 
 
 
->> ![routes1](https://user-images.githubusercontent.com/72685070/103410629-8523ad80-4baf-11eb-97d2-1b0dae73a7b2.png)
 
 
 >> * source/app.js
+
+
+>> ![routes1](https://user-images.githubusercontent.com/72685070/103410629-8523ad80-4baf-11eb-97d2-1b0dae73a7b2.png)
+
+
 >>> - _app.use('/', indexRouter)_
+
+
+>> * source/routes/index.js
 
 >> ![routes2](https://user-images.githubusercontent.com/72685070/103411082-87870700-4bb1-11eb-9fb1-b0f9d6c634a4.png)
 
 
->> * source/routes/index.js
 >>> - _const login = require('./login/index')_
 >> * source/routes/login/index.js
 >>> - _const controller = require('./login.controller')_
