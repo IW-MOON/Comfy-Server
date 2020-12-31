@@ -44,5 +44,16 @@
 
 >>> - _const login = require('./login/index')_
 >> * source/routes/login/index.js
+
+>> ![routes3](https://user-images.githubusercontent.com/72685070/103411127-c87f1b80-4bb1-11eb-994f-7e76a3fb4a7a.png)
+
+
 >>> - _const controller = require('./login.controller')_
 >>> - _router.post('/auth', controller.main)_
+
+>> * source/routes/login/login.controller.js
+>>> - _const dao = require('./login.dao')_
+>>> - _const auth_config_dev = require('/source/config/auth_config_dev.js');_
+>>> exports.main = (req, req, next) => {
+      const result = await dao.selectToken(payload);
+    }
