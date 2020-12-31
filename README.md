@@ -12,3 +12,8 @@
 ### 2. Express(Node)
 > #### 1) Node Modules
 >> ##### * mysql
+>> ##### * aws-sdk
+>> ##### * winston
+>> ##### * winston-daily-rotate-file
+>> ##### * jsonwebtoken
+>> ##### * google-auth-library
