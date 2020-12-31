@@ -55,9 +55,9 @@
 >>> - _const dao = require('./login.dao')_
 >>> - _const auth_config_dev = require('/source/config/auth_config_dev.js');_
 >>> ``` Javascript
-exports.main = (req, res, next) => {
-  const result = await dao.selectToken(payload);
-}
-```
+>>> ```exports.main = (req, res, next) => {
+>>> ```  const result = await dao.selectToken(payload);
+>>> ```}
+
 
 
